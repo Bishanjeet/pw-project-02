@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+}
+.Lists {
+    list-style: none;
+    display: flex;
+}
+
+.logo {
+    margin: 20px 40px 0 10px ;
+   
+}
+.List-items {
+    margin: 22px 15px;
+    font-family: "Poppins";
+    cursor: pointer;
+}
+
+.top-button {
+    margin: 20px 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #5955b3;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Poppins";
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.left-section {
+    
+    margin: 150px 0;
+}
+
+.left-section > h1 {
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    margin-bottom: 28px;
+    font-family: "Poppins";
+}
+
+.left-section > h1 > span {
+    color: #5955b3;
+}
+
+.left-section > p {
+    width: 110%;
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+.button-main {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #5955b3;
+    color: white;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
